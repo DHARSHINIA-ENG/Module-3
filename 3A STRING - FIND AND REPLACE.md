@@ -1,30 +1,35 @@
 # Exp.No:3a
-## STRING - FIND AND REPLACE
+## STRING - FIND AND COUNT THE CHARACTER
 
 ---
-
 ### AIM  
-To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
+To write a python program to find the frequency of the character 'H' from the  string "HASH".
 
 ---
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Input the original string `str1` and the word to be replaced `replace_str`.  
-3. Ask the user to input the new replacement word `str2`.  
-4. Use the `replace()` method in Python to replace all occurrences of `replace_str` in `str1` with `str2`.  
-5. Store the modified string in `str3`.  
-6. Display the original string (`str1`) and the modified string (`str3`).  
-7. Terminate the program.
+2. Input the string
+3. Input the character to be found
+4. Count the character by str.count(a)
+5. print the number of times the character is repeated.
+6. Terminate the program.
 
 ---
 
 ### PROGRAM
 
 ```
+str=input()
+c=input()
+count=str.count(c)
+print("Character {} in the {} is {} times".format(c,str,count))
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/40753de2-6fe7-4a77-820f-52118948e861)
+
 
 ### RESULT
+Thus the python program to find the frequency of the character 'H' from the  string "HASH" has been executed successfully.
