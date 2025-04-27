@@ -1,30 +1,39 @@
 # Exp.No:3e
-## SEB - STRING SLICING
+## SEB - STRING COMPARISON
 
 ---
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
+To Write a python program to check whether the given values are same or not.
 
 ---
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
+2. Accept string1 as input.  
+3. Accept string2 as input.
+4. check if a and b are equal
+5. print TRUE
+6. Else print FALSE
+7. End
 
 ---
 
 ### PROGRAM
 
 ```
+a=int(input())
+b=int(input())
+if a==b:
+    print("True")
+else:
+    print("False")
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/caa2c7da-4e9b-4c58-9060-a7554cc6271f)
+
 
 ### RESULT
+Thus the python program to check whether the given values are same or not has been executed successfully.
